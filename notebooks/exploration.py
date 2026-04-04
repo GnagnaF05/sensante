@@ -49,3 +49,7 @@ print("  Exploration terminee !")
 print("  Prochain lab : entrainer un modele ML")
 print(f"{'=' * 50}")
 
+# ===== ANALYSE PAR SEXE ET DIAGNOSTIC =====
+print(f"\n--- Patients par sexe et diagnostic ---")
+sexe_diag = df.groupby(["sexe", "diagnostic"]).size()
+print(sexe_diag)
