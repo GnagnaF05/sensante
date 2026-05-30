@@ -15,7 +15,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# .env (a la racine de sensante/)
-GROQ_API_KEY=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
- 
+# .env  (ne jamais committer ce fichier)
+GROQ_API_KEY=gsk_...
+
+# .gitignore  (ajouter cette ligne)
+.env
 
